@@ -13,61 +13,61 @@ const Menu = () => {
   const menuItems = [
     {
       id: 1,
-      name: "Truffle Risotto",
+      name: "Butter Chicken",
       category: "Main Courses",
-      price: 28,
-      description: "Creamy arborio rice with black truffle, parmesan, and fresh herbs",
-      image: "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=400&q=80",
+      price: 22,
+      description: "Tender chicken in creamy tomato-based curry with aromatic spices and fresh herbs",
+      image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=400&q=80",
       popular: true,
       spicy: false
     },
     {
       id: 2,
-      name: "Burrata Caprese",
+      name: "Samosa Chaat",
       category: "Appetizers",
-      price: 16,
-      description: "Fresh burrata with heirloom tomatoes, basil, and balsamic reduction",
-      image: "https://images.unsplash.com/photo-1515516969-d4008cc6241a?auto=format&fit=crop&w=400&q=80",
+      price: 12,
+      description: "Crispy samosas topped with chutneys, yogurt, and fresh herbs",
+      image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=400&q=80",
       popular: true,
-      spicy: false
+      spicy: true
     },
     {
       id: 3,
-      name: "Osso Buco",
+      name: "Lamb Biryani",
       category: "Main Courses",
-      price: 35,
-      description: "Braised veal shanks with saffron risotto and gremolata",
-      image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=400&q=80",
+      price: 28,
+      description: "Fragrant basmati rice layered with tender lamb and aromatic spices",
+      image: "https://images.unsplash.com/photo-1563379091339-03246963d7d3?auto=format&fit=crop&w=400&q=80",
       popular: false,
-      spicy: false
+      spicy: true
     },
     {
       id: 4,
-      name: "Tiramisu",
+      name: "Gulab Jamun",
       category: "Desserts",
-      price: 12,
-      description: "Classic Italian dessert with espresso-soaked ladyfingers and mascarpone",
-      image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=400&q=80",
+      price: 8,
+      description: "Soft milk dumplings soaked in cardamom-scented sugar syrup",
+      image: "https://images.unsplash.com/photo-1571167230394-f3dee6c8e2eb?auto=format&fit=crop&w=400&q=80",
       popular: true,
       spicy: false
     },
     {
       id: 5,
-      name: "Arancini",
+      name: "Paneer Tikka",
       category: "Appetizers",
-      price: 14,
-      description: "Crispy risotto balls filled with mozzarella and served with marinara",
-      image: "https://images.unsplash.com/photo-1626804475297-41608ea09aeb?auto=format&fit=crop&w=400&q=80",
+      price: 16,
+      description: "Marinated cottage cheese grilled with bell peppers and onions",
+      image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=400&q=80",
       popular: false,
       spicy: true
     },
     {
       id: 6,
-      name: "Chianti Classico",
+      name: "Mango Lassi",
       category: "Beverages",
-      price: 45,
-      description: "Premium Italian red wine from Tuscany region",
-      image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=400&q=80",
+      price: 6,
+      description: "Traditional yogurt-based drink blended with fresh mango and cardamom",
+      image: "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=400&q=80",
       popular: false,
       spicy: false
     }
@@ -88,7 +88,7 @@ const Menu = () => {
             Our Menu
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover our carefully crafted dishes made with the finest ingredients
+            Discover our carefully crafted Indian dishes made with the finest ingredients
           </p>
         </div>
 

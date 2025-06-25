@@ -18,7 +18,7 @@ const Hero = () => {
       subtitle: "Farm to table excellence"
     },
     {
-      image: "https://images.unsplash.com/photo-1551218808-94e220e25f4b?auto=format&fit=crop&w=1920&q=80",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=1920&q=80",
       title: "Award Winning Cuisine",
       subtitle: "Crafted by master chefs"
     }
@@ -26,10 +26,14 @@ const Hero = () => {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+      setCurrentSlide((prev) => {
+        const nextSlide = (prev + 1) % slides.length;
+        console.log(`Switching to slide ${nextSlide}`);
+        return nextSlide;
+      });
+    }, 4000); // Reduced from 5000ms to 4000ms for better visibility
     return () => clearInterval(timer);
-  }, []);
+  }, [slides.length]);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -44,12 +48,12 @@ const Hero = () => {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === currentSlide ? 'opacity-100' : 'opacity-0'
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
           }`}
         >
           <div
-            className="absolute inset-0 bg-cover bg-center"
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${slide.image})` }}
           />
           <div className="absolute inset-0 bg-black/50" />
@@ -57,7 +61,7 @@ const Hero = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-10 min-h-screen flex items-center">
+      <div className="relative z-20 min-h-screen flex items-center">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-white">
             <div className="animate-fade-in">
@@ -101,7 +105,7 @@ const Hero = () => {
                 </Button>
                 <Button
                   onClick={() => scrollToSection('reservations')}
-                  className="bg-white text-gray-900 hover:bg-gray-100 border-2 border-white px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                  className="bg-white/90 text-gray-900 hover:bg-white border-2 border-white/90 px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl backdrop-blur-sm"
                 >
                   Make Reservation
                 </Button>
@@ -112,7 +116,7 @@ const Hero = () => {
       </div>
 
       {/* Slide Indicators */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-30">
         {slides.map((_, index) => (
           <button
             key={index}
