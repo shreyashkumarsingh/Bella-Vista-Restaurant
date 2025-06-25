@@ -18,7 +18,8 @@ const Hero = () => {
       subtitle: "Farm to table excellence"
     },
     {
-      image: "https://images.unsplash.com/photo-1551218808-94e220e25, title: "Award Winning Cuisine",
+      image: "https://images.unsplash.com/photo-1551218808-94e220e25f4b?auto=format&fit=crop&w=1920&q=80",
+      title: "Award Winning Cuisine",
       subtitle: "Crafted by master chefs"
     }
   ];
