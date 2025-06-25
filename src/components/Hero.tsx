@@ -101,8 +101,7 @@ const Hero = () => {
                 </Button>
                 <Button
                   onClick={() => scrollToSection('reservations')}
-                  variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-black px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105"
+                  className="bg-white text-gray-900 hover:bg-gray-100 border-2 border-white px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
                 >
                   Make Reservation
                 </Button>
