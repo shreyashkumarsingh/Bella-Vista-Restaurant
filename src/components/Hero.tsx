@@ -12,7 +12,7 @@ const Hero = () => {
       subtitle: "Where flavors meet perfection"
     },
     {
-      image: "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=1920&q=80",
+      image: "https://wallpapers.com/images/hd/luscious-butter-chicken-curry-b2bz7umva0ym85bx.jpg",
       title: "Fresh Ingredients Daily",
       subtitle: "Farm to table excellence"
     },
