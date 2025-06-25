@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { ChefHat, Star, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -18,7 +17,7 @@ const Hero = () => {
       subtitle: "Farm to table excellence"
     },
     {
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?auto=format&fit=crop&w=1920&q=80",
+      image: "https://wallpapers.com/images/hd/1920x1080-kitchen-background-1920-x-1080-dagj4l16ve9jjqkt.jpg",
       title: "Award Winning Cuisine",
       subtitle: "Crafted by master chefs"
     }
@@ -48,8 +47,8 @@ const Hero = () => {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out pointer-events-none ${
+            index === currentSlide ? 'opacity-100 z-20' : 'opacity-0 z-10'
           }`}
         >
           <div
