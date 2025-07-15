@@ -19,18 +19,6 @@ const Gallery = () => {
       category: "Food"
     },
     {
-      id: 3,
-      src: "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80",
-      title: "Chef's Special",
-      category: "Food"
-    },
-    {
-      id: 4,
-      src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-      title: "Master Chef at Work",
-      category: "Kitchen"
-    },
-    {
       id: 5,
       src: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
       title: "Signature Dish",
