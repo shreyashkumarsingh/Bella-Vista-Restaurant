@@ -29,7 +29,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
-            Bella Vista
+            Indian Flavour Palace
           </div>
           
           {/* Desktop Menu */}

@@ -11,7 +11,7 @@ const About = () => {
             Our Story
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Bella Vista has been serving exceptional cuisine for over two decades, 
+            Indian Flavour Palace has been serving exceptional cuisine for over two decades, 
             combining traditional recipes with modern culinary innovation.
           </p>
         </div>

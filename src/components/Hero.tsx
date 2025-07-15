@@ -66,7 +66,7 @@ const Hero = () => {
             <div className="animate-fade-in">
               <ChefHat className="mx-auto mb-6 text-orange-400" size={64} />
               <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 bg-clip-text text-transparent animate-scale-in">
-                Bella Vista
+                Indian Flavour Palace
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-gray-200 animate-fade-in delay-300">
                 {slides[currentSlide].subtitle}

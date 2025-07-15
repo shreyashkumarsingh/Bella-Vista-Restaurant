@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <ChefHat className="text-orange-400" size={32} />
               <span className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
-                Bella Vista
+                Indian Flavour Palace
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed">
@@ -129,7 +129,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 Bella Vista Restaurant. All rights reserved.
+              © 2024 Indian Flavour Palace Restaurant. All rights reserved.
             </div>
             <div className="flex items-center space-x-1 text-gray-400 text-sm">
               <span>Made with</span>
