@@ -19,12 +19,6 @@ const Gallery = () => {
       category: "Food"
     },
     {
-      id: 5,
-      src: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
-      title: "Signature Dish",
-      category: "Food"
-    },
-    {
       id: 6,
       src: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
       title: "Homemade Tiramisu",
@@ -35,12 +29,6 @@ const Gallery = () => {
       src: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
       title: "Romantic Ambiance",
       category: "Interior"
-    },
-    {
-      id: 8,
-      src: "https://images.unsplash.com/photo-1424847651672-bf20a4b0e5d2?auto=format&fit=crop&w=800&q=80",
-      title: "Wine Selection",
-      category: "Beverages"
     }
   ];
 
