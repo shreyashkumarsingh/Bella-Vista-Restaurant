@@ -116,7 +116,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 For any questions or support, please contact:
 - Email: info@indianflavourpalace.com
-- Phone: +1 (555) 123-4567
+- Phone: +91-1234567890
 
 ---
 

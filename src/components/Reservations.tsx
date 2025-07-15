@@ -223,11 +223,11 @@ const Reservations = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="mr-3 text-orange-400" size={20} />
-                  <span>(555) 123-4567</span>
+                  <span>+91-1234567890</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="mr-3 text-orange-400" size={20} />
-                  <span>reservations@bellavista.com</span>
+                  <span>reservations@indianflavourpalace.com</span>
                 </div>
                 <div className="flex items-start">
                   <Calendar className="mr-3 text-orange-400 mt-1" size={20} />

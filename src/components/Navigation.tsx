@@ -47,7 +47,7 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center space-x-4 text-white">
             <div className="flex items-center space-x-1">
               <Phone size={16} />
-              <span className="text-sm">(555) 123-4567</span>
+              <span className="text-sm">+91-1234567890</span>
             </div>
             <div className="flex items-center space-x-1">
               <MapPin size={16} />
