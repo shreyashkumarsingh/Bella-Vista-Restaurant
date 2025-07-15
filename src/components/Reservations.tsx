@@ -234,7 +234,7 @@ const Reservations = () => {
                   <div>
                     <div className="font-semibold">123 Culinary Street</div>
                     <div className="text-gray-300">Downtown, Foodie District</div>
-                    <div className="text-gray-300">New York, NY 10001</div>
+                    <div className="text-gray-300">India, 744103</div>
                   </div>
                 </div>
               </div>

@@ -109,15 +109,15 @@ const Footer = () => {
               <div>
                 <div className="font-semibold text-white">Address</div>
                 <div>123 Culinary Street</div>
-                <div>New York, NY 10001</div>
+                <div>India, 744103</div>
               </div>
               <div>
                 <div className="font-semibold text-white">Phone</div>
-                <div>(555) 123-4567</div>
+                <div>+91-1234567890</div>
               </div>
               <div>
                 <div className="font-semibold text-white">Email</div>
-                <div>info@bellavista.com</div>
+                <div>info@IndianFlavourPalace.com</div>
               </div>
             </div>
           </div>
