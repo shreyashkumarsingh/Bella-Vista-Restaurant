@@ -71,7 +71,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="text-center animate-fade-in delay-[900ms]">
+          <div className="text-center animate-fade-in delay-1000">
             <div className="bg-gradient-to-br from-purple-400 to-pink-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Users className="text-white" size={32} />
             </div>
@@ -81,7 +81,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="text-center animate-fade-in delay-[1100ms]">
+          <div className="text-center animate-fade-in delay-1100">
             <div className="bg-gradient-to-br from-yellow-400 to-orange-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Clock className="text-white" size={32} />
             </div>
